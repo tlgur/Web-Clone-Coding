@@ -1,0 +1,306 @@
+main > h1{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+
+article{
+    width: 1180px;
+    margin:0 auto;
+    position: relative;
+    padding: 0px 0 75px;
+    z-index: 1;
+}
+
+.main_banner{
+    height: 60px;
+    width: 1180px;
+    margin : 0 auto;
+    position: sticky;
+    top:145px;
+    z-index: 100;
+    border-bottom: 1px solid #efefef;
+    background-color: #fff;
+}
+
+.main_banner > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.main_banner > ul > li{
+    padding : 20px 0 10px;
+    margin : 0 15px;
+    border-bottom: 5px solid #fff;
+}
+
+.main_banner > ul > li > a{
+    font-size: 18px;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/************************************/
+.main_item{
+    padding:20px 0;
+    margin-bottom: 10px;
+}
+.mi_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 10px;
+    letter-spacing: -1.5px;
+}
+
+.mi_left{
+    width: 338px;
+}
+
+.direct{
+    margin-top: 12px;
+    font-size: 19px;
+}
+.mi_left > h2{
+    margin: 5px 0 20px;
+    font-size:36px;
+}
+
+.item_detail{
+    font-size:14px;
+}
+.mi_left_button{
+    list-style: none;
+    margin-top:50px;
+    text-align: center;
+}
+.mi_left_button > a{
+    cursor: pointer;
+    display: block;
+    border: 1px solid #2c7fdf;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 16px 0px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.mi_left_button > a > span{
+    color: #2c7fdf;
+}
+
+.mi_left > .mi_left_button > .mi_left_button_first{
+    margin-top: 0;
+    background-color: #2c7fdf;
+}
+
+.mi_left > .mi_left_button >.mi_left_button_first > span{
+    color: #fff;
+}
+
+.mi_right{
+    width: 856px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.mi_right > img{
+    width: 876px;
+}
+
+.mi_bottom >ul{
+    display: flex;
+    list-style: none;
+    margin-top: 7px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.mi_bottom > ul >li {
+    margin-right: 15px;
+}
+
+.mi_bot_box{
+    position: relative;
+    margin: 10px 15px 16px 0px;
+    padding: 24px 26px 30px;
+    width: 368px;
+    height: 175px;
+    display: block;
+    box-shadow: 1px 1px 10px #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;   
+    letter-spacing: -2px;
+}
+
+.mi_bot_box::before{
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 30px;
+    right: 30px;
+    width: 54px;
+    height: 58px;
+    background: url(https://direct.samsungfire.com/resources/images/main/main_prod.png) no-repeat;
+    background-size: 320px;
+}
+
+.car_icon::before{
+    background-position: -3px -3px;
+}
+
+.bike_icon::before{
+    background-position: -134px -3px;
+}
+
+.oneday_icon::before{
+    background-position: -198px -3px;
+}
+
+.handle_icon::before{
+    background-position: -70px -3px;
+}
+
+.mileage_icon::before{
+    background-position: -135px -327px;
+}
+
+.babel_icon::before{
+    background-position: -3px -70px;
+}
+
+.teath_icon::before{
+    background-position: -70px -70px;
+}
+
+.puzzle_icon::before{
+    background-position: -134px -70px;
+}
+
+.cancer_icon::before{
+    background-position: -198px -70px;
+}
+
+.twenty_icon::before{
+    background-position: -70px -198px;
+}
+
+.notepan_icon::before{
+    background-position: -262px -70px;
+}
+
+.smile_icon::before{
+    background-position: -3px -134px;
+}
+
+.piston_icon::before{
+    background-position: -70px -134px;
+}
+
+.baby_icon::before{
+    background-position: -3px -198px;
+}
+
+.teenager_icon::before{
+    background-position: -134px -198px;
+}
+
+.kidteeth_icon::before{
+    background-position: -198px -198px;
+}
+
+.building_icon::before{
+    background-position: -134px -262px;
+}
+
+.house_icon::before{
+    background-position: -70px -262px;
+}
+
+.shop_icon::before{
+    background-position: -198px -262px;
+}
+
+.global_icon::before{
+    background-position: -134px -134px;
+}
+
+.carrier_icon::before{
+    background-position: -198px -134px;
+}
+
+.golf_icon::before{
+    background-position: -70px -328px;
+}
+
+.rainy_icon::before{
+    background-position: -262px -262px;
+}
+
+.gavel_icon::before{
+    background-position: -262px -198px;
+}
+
+.coin_icon::before{
+    background-position: -262px -134px;
+}
+
+.connection_icon::before{
+    background-position: -262px -10px;
+}
+
+.mi_bot_box > .sub_mi_bot_box{
+    position: absolute;
+    color: #2e81df;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+}
+
+.mi_bottom > ul > .mi_bot_box_last{
+    margin-right:0;
+}
+
+.mi_bot_box > h3{
+    font-size: 22px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.mi_bot_box > p{
+    margin: 5px 0 0px;
+    line-height: 25px;
+    font-size:15px;
+    font-weight: 400;
+    height: 58px;
+    padding: 4px 0;
+}
+
+.mi_left > .sub_item_detail{
+    position: relative;
+    color: #2e81df;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+    margin:10px 0px;
+    padding: 10px 0 0 30px;
+}
+
+.sub_item_detail::before{
+    position: absolute;
+    top:7px;
+    left: 0;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url(https://direct.samsungfire.com/resources/images/main/main_bg_icon.png);
+    background-position: -107px 0;
+    background-repeat: no-repeat;
+    background-size: 158px;
+}

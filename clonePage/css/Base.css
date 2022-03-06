@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#202020;
+}
+
+header{
+  background-color: #2177ce;
+  min-width: 1180px;
+}
+
+main{
+  background-color: #fff;
+  min-width: 1180px;
+}
+
+footer{
+  background-color: #f3f4f6;
+  min-width: 1180px;
+}

@@ -1,0 +1,57 @@
+aside{
+    position: fixed;
+    right:0;
+    top:0;
+    background-color: white;
+    z-index: 1000;
+}
+
+aside  button{
+    position: absolute;
+    top: 293px;
+    background-color: transparent;
+    left: -17px;
+    height: 86px;
+    width: 17px;
+    z-index: 1000;
+    border:0;
+}
+
+aside h4{
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 0;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1.5px solid #dcdcdc;
+    border-left: 1.5px solid #dcdcdc;
+}
+
+aside li{
+    border-bottom: 1px solid #dcdcdc;
+    list-style: none;
+    width: 80px;
+    font-size: 11px;
+    letter-spacing: -0.07em;
+    border-left: 1.5px solid #dcdcdc;
+}
+
+aside a{
+    width: 80px;
+    height: 84px;
+    display: block;
+    text-align: center;
+    background: no-repeat url(https://direct.samsungfire.com/resources/images/common/ico_quick.png);
+    cursor: pointer;
+}
+
+aside a > span{
+    display: block;
+    padding-top: 50px;
+    line-height: 1;
+}
+
+aside a > span:hover{
+    font-weight: bold;
+}

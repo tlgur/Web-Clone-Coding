@@ -1,0 +1,461 @@
+.sticky_header{
+    position: fixed;
+    background-color: #2177ce;
+    top:0;
+    width: 100%;
+    z-index: 990;
+}
+
+.service_area{
+    width: 1180px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 8px 0;
+    padding-top:5px;
+}
+
+
+.service_area ul > li{
+    list-style: none;
+    display: inline-block;
+    margin-right:10px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: -0.45px;
+}
+
+.service_area ul > li > a > span{
+    color: #fff;
+    font-size: 13px;
+}
+
+#ico_login{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px 12px
+}
+
+/************************************/
+
+.menubar{
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    bottom:12px;
+}
+
+.logo_type{
+    display: inline-block;
+    position: relative;
+    bottom: 21px;
+    left: 10px;
+}
+
+.logo_type > ul{
+    list-style: none;
+    color: #fff;
+    background-color: #76b2ec;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.logo_type > ul > li{
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.logo_type > ul > li > a{
+    color:#fff;
+    letter-spacing: -0.45px;
+}
+
+#current_type{
+    border-radius: 30px;
+    background-color: #fff;
+}
+#current_type > a{
+    color: #76b2ec;
+}
+
+.site_map{
+    float:right;
+    padding-right: 136px;
+}
+
+.site_map > ul> a > li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.site_map > ul > a > li{
+    line-height: 108px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1.5px; 
+}
+
+.site_map > ul li:hover::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-width:0 6px 8px;
+    border-color:#fff transparent; 
+    border-style: solid;
+    position: absolute;
+    bottom:-1px;
+    left:50px;
+}
+
+.menubar::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+
+.ico_site_map{
+    position: absolute;
+    right:0;
+    bottom:34px;
+}
+
+.ico_site_map > a{
+    display: inline-block;
+    margin-left: 9px;
+    width: 49px;
+    height: 54px;
+    background: url(https://direct.samsungfire.com/resources/images/main/main_bg_icon.png?ver=20220111) no-repeat;
+    background-size: 150px;
+}
+
+.hidden_container{
+    position: relative;
+    
+}
+
+.container_wrap{
+    position: absolute;
+    left:0;
+    width: 100%;
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    width:1180px;
+    margin:0 auto;
+}
+.sub_container{
+    width: 20%;
+    padding: 25px 0;
+    box-sizing: border-box;
+    border-right: 0.001em solid #dcdcdc;
+}
+.start{
+    border-left: 0.001em solid #dcdcdc;
+    text-align: center;
+}
+.sub_container> ul{		
+    list-style: none;
+    padding-left:7px;
+}
+.sub_container >ul li{
+    padding:5px 0;
+    height: 28px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.sub_container >ul >a:hover > li{
+    background-color: rgb(238, 245, 251);
+}
+
+.sub_container >ul >a:hover{
+    font-weight: bold;
+}
+.sub_container > ul > a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    letter-spacing: -0.1em;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.second{
+    padding-top:40px;
+}
+.sub_container p{
+    font-size:17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -0.1em;
+}
+/*******************************************/
+
+#top_mhd{
+    margin:0 auto;
+    width: 1180px;
+}
+
+#top_mhd::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.top_left{
+    padding: 66px 0 55px;
+    float:left;
+}
+
+.mainheader h1{
+    color: #fff;
+    font-size: 47px;
+    bottom:586px;
+    line-height: 65px;
+    z-index: 10;
+    background-color: #2177ce;
+}
+
+.top_right{
+    padding-top: 95px;
+    width: 555px;
+    height: 105px;
+    position: relative;
+    float:right;
+    overflow: hidden;
+}
+
+.slider_content{
+    display: block;
+    float:right;
+    position: absolute;
+    padding: 0 135px 0 8px;
+    height: 105px;
+    left: -555px;
+    width: 555px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: right bottom;
+}
+
+
+.slider_content > p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    line-height: 28px;
+    letter-spacing: -1px;
+    margin-top: 5px;
+}
+
+#hdb{
+    color:#fff;
+    display: inline-block;
+    background-color: #26619e;
+    border-radius: 14px;
+    padding:2px 20px 2px 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    position: absolute;
+    right:155px;
+    bottom:0;
+    font-weight: 400;
+    cursor: default;
+}
+#hdb button{
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    width: 14px;
+    height: 14px;
+    margin: 5px 0 0 8px;
+    line-height: 18px;
+    border-radius: 9px;
+    border: 0;
+    background: #92b0cf url(https://direct.samsungfire.com/m/resources/images/main/ico_main_mvp.png);
+    background-position: -160px -5px,0 0;
+    background-repeat: no-repeat,repeat;
+    background-size: 200px,2px;
+    cursor: pointer;
+}
+
+/*****************************/
+
+#bot_mhd{
+    width: 1180px;
+    margin: 0 auto;
+    padding-bottom:80px;
+}
+
+#bot_mhd::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#bot_mhd > div{
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px #394f77;
+    height: 370px;
+    box-sizing: border-box;
+}
+
+.site_map_ico{
+    padding: 44px 40px;
+    width: 580px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.site_map_ico a{
+    flex: 0 0 25%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding:4px 0 3px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.site_map_ico li::before{
+    content: '';
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 4px;
+    background: url(https://direct.samsungfire.com/m/resources/images/common/icon_cate.png?ver=20211102) no-repeat;
+    background-size: 320px;
+}
+
+#smico1::before{
+    background-position: 0px 0px;
+}
+#smico2::before{
+    background-position: 0px -160px;
+}
+#smico3::before{
+    background-position: -80px 0px;
+}
+#smico4::before{
+    background-position: -160px 0px;
+}
+#smico5::before{
+    background-position: 0px -80px;
+}
+#smico6::before{
+    background-position: -240px 0px;
+}
+#smico7::before{
+    background-position: -80px -80px;
+}
+#smico8::before{
+    background-position: -160px -80px;
+}
+
+.need_login{
+    float: right;
+    padding: 50px 60px;
+    position: relative;
+}
+
+.need_login h2{
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.need_login >div{
+    display: block;
+    width: 250px;
+    margin-right:200px
+}
+
+
+.need_login>div::after{
+    position: absolute;
+    right:0;
+    bottom: 54px;
+    content: '';
+    width: 250px;
+    height: 260px;
+    display: block;
+    background: url(https://direct.samsungfire.com/resources/images/main/login_bg.png) no-repeat right bottom;
+    background-size: 220px;
+}
+
+#sign_up{
+    display: block;
+    position: absolute;
+    bottom: 60px;
+}
+#sign_up >a{
+    display: block;
+    border: 1px solid #2c7fdf;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding:16px 0;
+    border-radius: 4px;
+    margin-top:10px;
+    width: 250px;
+}
+
+/****************************************/
+
+.banner{
+    background-color: #f3f9ff;
+}
+
+.banner > div{
+    box-sizing: border-box;
+    display: block;
+    width: 770px;
+    height: 160px;
+    padding-top: 26px;
+    margin: auto;
+    letter-spacing: -1px;
+}
+.banner > div > a{
+    display: block;
+}
+
+.banner > div > a::after{
+    content: '';
+    display: block;
+    background: url(https://direct.samsungfire.com/resources/images/main/bg_ms_banner.png) no-repeat 0 0;
+    background-size: 72px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    right:0;
+    top: 45px;
+}
+
+#banner_cursor::after{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 10px;
+    position: absolute;
+    right: -15px;
+    top: 5px;
+    background: url(https://direct.samsungfire.com/resources/images/main/main_bg_icon.png) no-repeat -117px -32px;
+    background-size: 150px;
+}
